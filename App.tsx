@@ -77,14 +77,14 @@ const App = () => {
         </div>
       </section>
 
-      {/* CONTACT SECTION (The Form replacement) */}
+      {/* CONTACT SECTION */}
       <section id="contact" className="max-w-6xl mx-auto px-6 py-32">
         <div className="bg-[#EBEBE8] p-12 md:p-20">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-[10px] font-bold tracking-[0.3em] uppercase mb-8 text-[#947862]">Contact</h2>
               <h3 className="text-4xl font-serif mb-6 leading-tight">Let’s discuss your next growth engine.</h3>
-              <p className="text-[#75604E] leading-relaxed mb-8">
+              <p className="text-[#75604E] leading-relaxed mb-8 italic">
                 Currently open to Senior Performance Marketing or Head of Performance roles.
               </p>
               <div className="space-y-4">
@@ -97,7 +97,6 @@ const App = () => {
               </div>
             </div>
             <div className="hidden md:block">
-               {/* This creates a visual "form" look without the complexity of one */}
                <div className="border border-[#DADAD5] p-8 space-y-6 bg-white shadow-xl">
                  <div className="h-4 w-1/2 bg-[#F5F5F3]"></div>
                  <div className="h-4 w-full bg-[#F5F5F3]"></div>
