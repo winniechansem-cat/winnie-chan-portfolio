@@ -36,18 +36,18 @@ const App = () => {
       <section id="articles" className="max-w-6xl mx-auto px-6 py-24">
         <h2 className="text-[10px] font-bold tracking-[0.3em] uppercase mb-16 text-[#947862]">Articles & Strategy</h2>
         <div className="grid md:grid-cols-2 gap-16">
-          <article className="group cursor-pointer">
+          <article className="group">
             <p className="text-[10px] font-bold tracking-widest text-[#BFA38A] uppercase mb-4">Performance Strategy</p>
             <h3 className="text-3xl font-serif mb-4 group-hover:text-[#A86544] transition-colors leading-tight">Beyond the Click: Shifting B2B Focus to Qualified Pipeline.</h3>
             <p className="text-[#544538] leading-relaxed mb-6">How I restructured global marketing engines to move away from vanity metrics toward sales-validated revenue.</p>
-            <span className="text-xs font-bold border-b border-[#0A0A0A] pb-1 uppercase tracking-widest">Read Article -></span>
+            <a href="https://linkedin.com/in/winnie-chan" target="_blank" rel="noreferrer" className="text-xs font-bold border-b border-[#0A0A0A] pb-1 uppercase tracking-widest">Read Article -></a>
           </article>
 
-          <article className="group cursor-pointer">
+          <article className="group">
             <p className="text-[10px] font-bold tracking-widest text-[#BFA38A] uppercase mb-4">Leadership</p>
             <h3 className="text-3xl font-serif mb-4 group-hover:text-[#A86544] transition-colors leading-tight">The Agency-to-Client Pivot: A Performance Lead’s Perspective.</h3>
             <p className="text-[#544538] leading-relaxed mb-6">Navigating the transition from high-volume agency life to driving deep commercial value in-house.</p>
-            <span className="text-xs font-bold border-b border-[#0A0A0A] pb-1 uppercase tracking-widest">Read Article -></span>
+            <a href="https://linkedin.com/in/winnie-chan" target="_blank" rel="noreferrer" className="text-xs font-bold border-b border-[#0A0A0A] pb-1 uppercase tracking-widest">Read Article -></a>
           </article>
         </div>
       </section>
@@ -70,7 +70,7 @@ const App = () => {
               <div className="md:col-span-2">
                 <h3 className="text-2xl font-serif mb-2 text-[#0A0A0A]">Paid Media & Strategy Director</h3>
                 <p className="text-lg text-[#75604E] mb-4">GrowthOps</p>
-                <p className="text-[#544538] leading-relaxed">Led a team of specialists to achieve 40% YoY revenue growth for high-value portfolios.</p>
+                <p className="text-[#544538] leading-relaxed">Led a high-performing team of 6 specialists to achieve 40% YoY revenue growth for high-value portfolios.</p>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const App = () => {
 
       {/* CONTACT SECTION */}
       <section id="contact" className="max-w-6xl mx-auto px-6 py-32">
-        <div className="bg-[#EBEBE8] p-12 md:p-20">
+        <div className="bg-[#EBEBE8] p-12 md:p-20 shadow-sm border border-[#DADAD5]">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-[10px] font-bold tracking-[0.3em] uppercase mb-8 text-[#947862]">Contact</h2>
