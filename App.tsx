@@ -32,7 +32,7 @@ const App = () => {
         <div className="absolute top-0 right-0 w-1/3 h-full bg-[#EBEBE8] -z-10 -skew-x-12 transform translate-x-20"></div>
       </header>
 
-      {/* ARTICLES & STRATEGY SECTION */}
+      {/* ARTICLES SECTION */}
       <section id="articles" className="max-w-6xl mx-auto px-6 py-24">
         <h2 className="text-[10px] font-bold tracking-[0.3em] uppercase mb-16 text-[#947862]">Articles & Strategy</h2>
         <div className="grid md:grid-cols-2 gap-16">
@@ -42,7 +42,6 @@ const App = () => {
             <p className="text-[#544538] leading-relaxed mb-6">How I restructured global marketing engines to move away from vanity metrics toward sales-validated revenue.</p>
             <a href="https://linkedin.com/in/winnie-chan" target="_blank" rel="noreferrer" className="text-xs font-bold border-b border-[#0A0A0A] pb-1 uppercase tracking-widest">Read Article -></a>
           </article>
-
           <article className="group">
             <p className="text-[10px] font-bold tracking-widest text-[#BFA38A] uppercase mb-4">Leadership</p>
             <h3 className="text-3xl font-serif mb-4 group-hover:text-[#A86544] transition-colors leading-tight">The Agency-to-Client Pivot: A Performance Lead’s Perspective.</h3>
@@ -52,7 +51,7 @@ const App = () => {
         </div>
       </section>
 
-      {/* PROFESSIONAL HISTORY SECTION */}
+      {/* EXPERIENCE SECTION */}
       <section id="experience" className="bg-white py-24">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-[10px] font-bold tracking-[0.3em] uppercase mb-16 text-[#947862]">Professional History</h2>
@@ -61,16 +60,8 @@ const App = () => {
               <div className="text-sm font-bold uppercase tracking-widest text-[#BFA38A]">2022 — 2026</div>
               <div className="md:col-span-2">
                 <h3 className="text-2xl font-serif mb-2 text-[#0A0A0A]">Senior Manager, Global Performance Marketing</h3>
-                <p className="text-lg text-[#75604E] mb-4">Sinch</p>
+                <p className="text-lg text-[#75604E] mb-4 text-[#A86544] font-semibold">Sinch</p>
                 <p className="text-[#544538] leading-relaxed">Managed multi-million dollar annual budgets and led the shift from lead-gen to qualified pipeline targets across global markets.</p>
-              </div>
-            </div>
-            <div className="grid md:grid-cols-3 gap-8 border-t border-[#F5F5F3] pt-20">
-              <div className="text-sm font-bold uppercase tracking-widest text-[#BFA38A]">2020 — 2022</div>
-              <div className="md:col-span-2">
-                <h3 className="text-2xl font-serif mb-2 text-[#0A0A0A]">Paid Media & Strategy Director</h3>
-                <p className="text-lg text-[#75604E] mb-4">GrowthOps</p>
-                <p className="text-[#544538] leading-relaxed">Led a high-performing team of 6 specialists to achieve 40% YoY revenue growth for high-value portfolios.</p>
               </div>
             </div>
           </div>
@@ -84,16 +75,10 @@ const App = () => {
             <div>
               <h2 className="text-[10px] font-bold tracking-[0.3em] uppercase mb-8 text-[#947862]">Contact</h2>
               <h3 className="text-4xl font-serif mb-6 leading-tight">Let’s discuss your next growth engine.</h3>
-              <p className="text-[#75604E] leading-relaxed mb-8 italic">
-                Currently open to Senior Performance Marketing or Head of Performance roles.
-              </p>
+              <p className="text-[#75604E] leading-relaxed mb-8 italic">Currently open to Senior Performance Marketing or Head of Performance roles.</p>
               <div className="space-y-4">
-                <a href="mailto:winniechan.sem@gmail.com" className="block text-xl font-serif hover:text-[#A86544] transition-colors underline decoration-[#A86544] underline-offset-8">
-                  winniechan.sem@gmail.com
-                </a>
-                <a href="https://linkedin.com/in/winnie-chan" target="_blank" className="block text-xl font-serif hover:text-[#A86544] transition-colors underline decoration-[#A86544] underline-offset-8">
-                  LinkedIn Profile
-                </a>
+                <a href="mailto:winniechan.sem@gmail.com" className="block text-xl font-serif hover:text-[#A86544] transition-colors underline decoration-[#A86544] underline-offset-8">winniechan.sem@gmail.com</a>
+                <a href="https://linkedin.com/in/winnie-chan" target="_blank" rel="noreferrer" className="block text-xl font-serif hover:text-[#A86544] transition-colors underline decoration-[#A86544] underline-offset-8">LinkedIn Profile</a>
               </div>
             </div>
             <div className="hidden md:block">
@@ -108,7 +93,6 @@ const App = () => {
         </div>
       </section>
 
-      {/* FOOTER */}
       <footer className="py-12 text-center text-[10px] tracking-[0.4em] uppercase opacity-40">
         © 2026 Winnie Chan &middot; Melbourne, Australia
       </footer>
